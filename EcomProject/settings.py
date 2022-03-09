@@ -138,3 +138,9 @@ MEDIA_ROOT = BASE_DIR / 'media'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+# smtp configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = '18co40@aiktc.ac.in'
+EMAIL_HOST_PASSWORD = '12345678'    # what da password doing (┬┬﹏┬┬)
+EMAIL_USE_TLS = True
